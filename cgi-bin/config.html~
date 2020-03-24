@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>config</title>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+<link type="text/css" href="css/config.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="banner">
+        <div class="nav">
+       	    <ul class = "box">
+				<li><a href="config.html">logo</a></li>
+            	<li><a href="config.html">首页</a></li>
+				<li><a href="config.html">系统设置</a></li>
+				<li><a href="config.html">我</a></li>
+				<li><a href="config.html">主页</a></li>
+				<li><a href="config.html">消息</a></li>
+				<li><a href="config.html">退出</a></li>
+            </ul>
+        </div>
+
+        <div class="bn_div">
+        	
+
+            <div class="news">
+
+            	
+
+            </div>
+
+            <div class="share">
+
+            </div>
+
+        </div>
+
+    </div>
+	
+	<br>
+	
+    <div class="center">
+
+		<div class="sys_info">
+			<p class="p1">系统信息</p>
+			
+			<table border="1" class="table table-bordered">
+				<tr>
+					<td>服务器操作系统版本：</td>
+					<td>Ubuntu</td>
+					<td>Web服务：</td>
+					<td>BOA</td>
+				</tr>
+				<tr>
+					<td>PHP版本：</td>
+					<td>5.6</td>
+					<td>MySQL版本：</td>
+					<td>5.5</td>
+				</tr>
+				<tr>
+					<td>安全模式：</td>
+					<td>否</td>
+					<td>设备ID：</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>Socket支持：</td>
+					<td>是</td>
+					<td>时区设置：</td>
+					<td>Asia</td>
+				</tr>
+				<tr>
+					<td>软件版本：</td>
+					<td>V1.5</td>
+					<td>DHCP：</td>
+					<td>状态 开关按钮</td>
+				</tr>
+				<tr>
+					<td>IP库版本：</td>
+					<td>2019</td>
+					<td>文件上传的最大字节：</td>
+					<td>40M</td>
+				</tr>
+				<tr>
+					<td>内核版本：</td>
+					<td>v2.2.2</td>
+					<td>安装日期：</td>
+					<td>2019</td>
+				</tr>
+				<tr>
+					<td>编码：</td>
+					<td>UTF-8</td>
+					<td>空余端口：</td>
+					<td>COM2</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="select">
+			<p class="p2">筛选查询</p>
+			<div class="select_info">
+				<div style="float:left;">输入搜索：</div>
+				<input type="text" name="search" style="float:left;" placeholder="设备名称/设备编号">
+				<div style="float:left;">设备品牌：</div>
+				<select name="" style="float:left;"> 
+					<option value="0">中电海康</option> 
+					<option value="1">海康威视</option> 
+				</select>
+				<div id="search" style="float:right;">刷新</div>
+			</div>
+		</div>
+		
+		<div class="device_list">
+			<p class="p3">设备列表</p>
+			<table class="table table-bordered">
+				
+					<thead>
+						<tr>
+							<th> </th>
+							<th>唯一标识码</th>
+							<th>设备IP</th>
+							<th>子网掩码</th>
+							<th>设备网关</th>
+							<th>DNS</th>
+							<th>服务器IP</th>
+							<th>设备名称</th>
+							<th>设备型号</th>
+							<th>标签</th>
+							<th>SDK版本</th>
+							<th>设备端口</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+				<tbody>
+					<tr>
+						<td> </td>
+						<td>111</td>
+						<td>192.168.1.101</td>
+						<td>255.255.255.0</td>
+						<td>192.168.1.1</td>
+						<td>192.168.1.1</td>
+						<td>10.70.0.100</td>
+						<td>尺 品牌：xx</td>
+						<td>型号：ITYU</td>
+						<td>正常：按钮 异常：</td>
+						<td>V1.1</td>
+						<td>COM1</td>
+						<td>查看 编辑 日志 删除</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</div>
+
+    </div>
+
+    <div class="bottom">
+
+    	<div class="footer">
+
+
+        </div>
+
+    </div>
+</body>
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>config</title>
+<script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<link type="text/css" href="css/jquery-ui.min.css" rel="stylesheet">
+<link type="text/css" href="css/config.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+	<div class="banner">
+        <div class="nav">
+       	    <ul class = "box">
+				<li><a href="/">logo</a></li>
+            	<li><a href="/">首页</a></li>
+				<li><a href="/Config/">系统设置</a></li>
+				<li><a href="/News/">我</a></li>
+				<li><a href="/Joinus/">主页</a></li>
+				<li><a href="/Culture/">消息</a></li>
+				<li><a href="/Aboutus/">退出</a></li>
+            </ul>
+        </div>
+
+        <div class="bn_div">
+        	
+
+            <div class="news">
+
+            	
+
+            </div>
+
+            <div class="share">
+
+            </div>
+
+        </div>
+
+    </div>
+	
+	<br>
+	
+    <div class="center">
+
+		<div class="base_config">
+			<p class="p3">常规设置</p>
+			<form enctype="multipart/form-data" action="cgi-bin/config2.cgi" method="post" class="form-horizontal" role="form">
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="device_name">*设备名称：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="LaL">经纬度：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="lamp_id">*灯杆ID：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" name="maintainer_info">维护人信息：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="device_ip">*设备IP：</label>
+					<div class="col-sm-10">
+						<input class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" name="phone">联系方式：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="username">用户名：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" name="password">密码：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="gateway">*网关：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" name="server_ip">*服务器IP：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group" >
+					<label class="col-sm-2 control-label" name="dns">*DNS：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label" name="subnet_mask">*子网掩码：</label>
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="text" value=" ">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label">是否开启DHCP：</label>
+					<label><input name="dhcp" type="radio" value="" />是 </label> 
+					<label><input name="dhcp" type="radio" value="" />否 </label> 
+				</div>
+				<div class="form-group">
+					<label class="col-sm-2 control-label">是否自动上报异常：</label>				
+					<label><input name="error" type="radio" value="" />是 </label> 
+					<label><input name="error" type="radio" value="" />否 </label> 				
+				</div>
+				<div class="form-group">
+					<div class="col-sm-10">
+						<input  class="form-control" id="focusedInput" type="submit" value="提交">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</form>
+			
+		</div>
+
+    </div>
+
+    <div class="bottom">
+
+    	<div class="footer">
+
+
+        </div>
+
+    </div>
+</body>
+
